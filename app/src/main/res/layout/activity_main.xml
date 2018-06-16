@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
+        android:textColor="#fffe37"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -21,9 +21,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/city_field"
         android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textSize="15sp" />
+        android:textColor="#fffe37"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/current_temperature_field"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
+        android:textColor="#fffe37"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="50sp" />
 
@@ -41,8 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
-        android:textColor="#FFFFFF"
-        android:textAppearance="?android:attr/textAppearanceMedium"/>
+        android:textColor="#fffe37"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
 
     <TextView
         android:id="@+id/humidity_field"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/details_field"
         android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
-        android:textAppearance="?android:attr/textAppearanceMedium"/>
+        android:textColor="#fffe37"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
 
 </RelativeLayout>
